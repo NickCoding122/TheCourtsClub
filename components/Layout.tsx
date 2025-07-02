@@ -7,6 +7,7 @@ export default function Layout({ children }: Props) {
   return (
     <>
       <nav>
+        <img src="/logo.svg" alt="The Courts Club logo" className="logo" />
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/locations">Locations</Link>
